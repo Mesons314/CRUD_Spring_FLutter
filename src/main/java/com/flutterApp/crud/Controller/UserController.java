@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/flutter")
+@CrossOrigin(origins = "*")
 public class UserController {
 
     private final UserService service;
